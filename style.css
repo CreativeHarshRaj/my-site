@@ -1,4 +1,25 @@
 body {
     font-size: 15pt;
     background-color: #0af;
+    margin: 0;
+}
+.navbar{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+}
+
+.navbar div{
+  display: flex;
+  gap: 1rem;
+}
+.navbar li{
+  list-style: none;
+}
+
+.navbar a{
+  color: #333;
+  text-decoration: none;
 }
